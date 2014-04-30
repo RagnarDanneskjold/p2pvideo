@@ -1,0 +1,42 @@
+{
+  "name": "p2pvideo",
+  "version": "0.0.1",
+  "description": "A completely peer-to-peer video-conference browser app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maraoz/p2pvideo.git"
+  },
+  "keywords": [
+    "peer-to-peer",
+    "p2p",
+    "video",
+    "videoconference"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maraoz/p2pvideo/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/maraoz/p2pvideo",
+  "devDependencies": {
+    "express": "4.0.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.8.2",
+    "grunt-shell": "~0.6.4",
+    "grunt-browserify": "~2.0.8",
+    "grunt-markdown": "~0.5.0",
+    "karma": "~0.12.9",
+    "karma-chrome-launcher": "~0.1.3",
+    "mocha": "~1.18.2",
+    "karma-mocha": "~0.1.3",
+    "browserify": "~3.32.1",
+    "browser-pack": "~2.0.1",
+    "commander": "~2.1.0",
+    "uglifyify": "~1.2.3",
+    "chai": "~1.9.1",
+    "sinon": "~1.9.1"
+  }
+}

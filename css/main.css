@@ -1,0 +1,317 @@
+/*
+ *
+ * p2pvideo main CSS
+ *
+ */
+
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 91px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -91px; /* negative value of footer height */
+	height: 91px;
+	clear:both;
+  padding: 5px 2rem;
+}
+
+.logo {
+  display: block;
+  width: 130px;
+  height: 51px;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  line-height: 60px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.top-bar-section ul li>a {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.top-bar-section ul li {
+  width: 25%;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header-content {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.header a.button.small-icon {
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.header h1, h5, p {
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.header button, .button {
+  margin-bottom: 0;
+}
+
+.header h6 {
+  font-weight: 100;
+}
+
+.top-bar {
+  height: auto;
+  width: 100%;
+}
+
+.panel {
+  padding: 0.7rem 1rem;
+  border:0;
+}
+
+.panel.status {
+  margin: 0;
+}
+
+.addresses .panel {
+  font-size: 0.9rem;
+}
+
+.transactions .panel {
+  border: 1px solid #eee;
+}
+
+.transactions .panel.pending {
+  padding: 1rem;
+}
+
+.pending .txheader {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.pending .txbottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  /* border-top: 1px solid #eee; */
+  font-size: 12px;
+}
+
+.btransactions .txheader {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.btransactions .txbottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+}
+
+.pending table {
+  width: 100%;
+  border: none;
+}
+
+.box-backup {
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+}
+
+a.box-backup {
+  display: block;
+}
+
+.box-backup i {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 25px;  
+}
+
+.line-dashed-v {
+  border-right: 2px dashed #E3E3E3;
+}
+
+.line-dashed-h {
+  margin: 1rem 0;
+  border-bottom: 2px dashed #E3E3E3;
+}
+
+.panel p {
+  margin-bottom: 0;
+}
+
+span.panel-res {
+  float: right;
+  padding: 0.4rem 0.55rem;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+
+.pending button {
+  margin: 0;
+}
+
+.line {
+  border-top: 1px solid #f2f2f2;
+  margin: 0.5rem 0 1rem;
+}
+
+small.is-valid {
+  font-weight: bold;
+}
+
+small.has-error {
+  font-weight: bold;
+}
+
+@media (max-width: 641px) {
+  .hide_menu {
+    display: none;
+  }
+  .show_menu {
+    display: block;
+  }
+  .top-bar-section ul li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .top-bar-section ul li>a {
+    font-size: 70%;
+  }
+}
+
+.new-address {
+  width: 220px;
+}
+
+hr { margin: 2.25rem 0;}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+.dn {display: none;}
+.pr {position: relative;}
+.m0 {margin: 0;}
+.db {display: block;}
+.size-12 { font-size: 12px; }      
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-36 { font-size: 36px; }
+.size-48 { font-size: 48px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+.m10t {margin-top: 10px;}
+.p10t {padding-top: 10px;}
+.p0r {padding-right: 0;}
+.p70r {padding-right: 70px;}
+.p70l {padding-left: 70px;}
+.p5h {padding: 0 5px;}
+.p20h {padding: 0 20px;}
+.m30v {margin: 30px 0;}
+.m10h {margin:0 10px;}
+.m30a {margin: 30px auto;}
+.br100 {border-radius: 100%;}
+.lh {line-height: 0;}
+.oh {overflow:hidden;}
+
+.signin input.ng-dirty.ng-invalid { 
+  border: 2px red solid;
+}
+
+.video-small {
+  width: 80px;
+  height: 80px;
+  border-radius: 1rem;
+  display: inline;
+  float: right;
+}
+.online {
+  border: 3px solid green;
+}
+.offline {
+  border: 3px solid gray;
+}
+
+.tx-p2pvideoers {
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.box-p2pvideoers {
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  float: left;
+}
+
+.box-p2pvideoers figure {
+  width: 51px;
+  height: 55px;
+  border-top-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+  overflow: hidden;
+  margin-right: 0.8px;
+}
+
+.box-status {
+  width: 16px;
+  height: 55px;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  float: left;
+  overflow: hidden;
+}
+
+.icon-status {
+  background: #2C3E50;
+  width: 16px;
+  float: left;
+  text-align: center;
+  display: block;
+  margin: 0.8px;
+  padding: 2.7px;
+}
+
+
+
+
+
+
+
+
